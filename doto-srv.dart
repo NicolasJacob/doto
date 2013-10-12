@@ -109,7 +109,7 @@ void main() {
   };
   var s=new StreamServer(
       uriMapping: smap,
-      homeDir:'.').start(address:HOST,port:PORT);
+      homeDir:'out/web').start(address:HOST,port:PORT);
 
   print("Serving doto on http://${HOST}:${PORT}.");
 
