@@ -1,4 +1,4 @@
 box: wercker/dart@0.0.1-dev5
 deploy:
   steps:
-    - run
+    - run:
