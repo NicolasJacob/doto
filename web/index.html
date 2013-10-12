@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample app</title>
+    <link rel="stylesheet" href="doto.css">
+    
+    <!-- import the click-counter -->
+    <link rel="import" href="doto_list_element.html">
+    <!-- This is the bootstrap script for Polymer. 
+         Use this INSTEAD of dart.js -->
+    <script src="packages/polymer/boot.js"></script>
+  </head>
+  <body>
+    <h1>Doto List</h1>
+    
+   
+    <template id="tmpl" bind>
+      <doto-list-element></doto-list-element>
+    </template>
+    <div id="add_url" >
+        URL: <input type="text" id="url">
+      <button id="add">Add</button>
+     
+    </div>
+    <script type="application/dart" src="doto.dart"></script>
+  </body>
+</html>

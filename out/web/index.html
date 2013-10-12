@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>Sample app</title>
+    <link rel="stylesheet" href="doto.css">
+    
+    <!-- import the click-counter -->
+    
+    <!-- This is the bootstrap script for Polymer. 
+         Use this INSTEAD of dart.js -->
+    
+  </head>
+  <body><script src="packages/shadow_dom/shadow_dom.debug.js"></script>
+<script src="packages/browser/interop.js"></script>
+<polymer-element name="doto-list-element">
+  <template>
+    <p>List of known URL</p>
+    <ul>
+      <template repeat="{{k in url.keys}}">
+        <div class="url">
+           {{k}}: {{url[k]}} 
+        </div>
+      </template>
+    </ul>
+     <div class="trash">[]</div>
+  </template>
+  
+</polymer-element>
+    <h1>Doto List</h1>
+    
+   
+    <template id="tmpl" bind="">
+      <doto-list-element></doto-list-element>
+    </template>
+    <div id="add_url">
+        URL: <input type="text" id="url">
+      <button id="add">Add</button>
+     
+    </div>
+    
+  
+
+<script type="application/dart" src="index.html_bootstrap.dart"></script><script src="packages/browser/dart.js"></script></body></html>
