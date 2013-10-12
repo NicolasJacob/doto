@@ -1,0 +1,65 @@
+---
+build.dart --machine --full
+Done! All files written to "out"
+build.dart finished [6051 ms]
+
+---
+build.dart --machine --changed=doto-srv.dart
+Done! All files written to "out"
+build.dart finished [7271 ms]
+
+---
+build.dart --machine --changed=wercker.yml
+Done! All files written to "out"
+build.dart finished [6548 ms]
+
+---
+build.dart --machine --changed=wercker.yml --changed=wercker.yml~
+Done! All files written to "out"
+build.dart finished [3017 ms]
+
+---
+build.dart --machine --changed=wercker.yml
+Done! All files written to "out"
+build.dart finished [3058 ms]
+
+---
+build.dart --machine --changed=wercker.yml
+Done! All files written to "out"
+build.dart finished [3094 ms]
+
+---
+build.dart --machine --changed=wercker.yml
+Done! All files written to "out"
+build.dart finished [3116 ms]
+
+---
+build.dart --machine --changed=wercker-step.yml
+Done! All files written to "out"
+build.dart finished [3432 ms]
+
+---
+build.dart --machine --changed=wercker-step.yml --changed=wercker-step.yml~
+Done! All files written to "out"
+build.dart finished [3201 ms]
+
+---
+build.dart --machine --changed=run.sh
+Done! All files written to "out"
+build.dart finished [3839 ms]
+
+---
+build.dart --machine --changed=run.sh
+Done! All files written to "out"
+build.dart finished [3037 ms]
+
+---
+build.dart --machine --changed=run.sh
+Done! All files written to "out"
+build.dart finished [3077 ms]
+
+---
+build.dart --machine --changed=wercker-step.yml
+Done! All files written to "out"
+build.dart finished [3082 ms]
+
